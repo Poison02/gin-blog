@@ -14,11 +14,11 @@ Mysql:
   Config: "charset=utf8mb4&parseTime=True&loc=Local" # 其他配置, 例如时区
   Dbname: "gvb"
   Username: "root"
-  Password: "root"
+  Password: "123456"
 Sqlite:
   Dsn: "gvb.db"
 Redis:
-  DB: 7
+  DB: 0
   Addr: '127.0.0.1:6379'
   Password: '123456'
 Session:
